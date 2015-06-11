@@ -1,0 +1,6 @@
+C:\Users\Elessandra\git\algoritmo_genetico\Mochila\Mochila\bin\Debug\Mochila.exe.config
+C:\Users\Elessandra\git\algoritmo_genetico\Mochila\Mochila\bin\Debug\Mochila.exe
+C:\Users\Elessandra\git\algoritmo_genetico\Mochila\Mochila\bin\Debug\Mochila.pdb
+C:\Users\Elessandra\git\algoritmo_genetico\Mochila\Mochila\obj\Debug\Mochila.csprojResolveAssemblyReference.cache
+C:\Users\Elessandra\git\algoritmo_genetico\Mochila\Mochila\obj\Debug\Mochila.exe
+C:\Users\Elessandra\git\algoritmo_genetico\Mochila\Mochila\obj\Debug\Mochila.pdb
