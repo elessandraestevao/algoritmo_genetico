@@ -14,17 +14,19 @@ namespace Mochila
         public IList<Item> Itens { get; set; }
         public double PesoMaximo { get; set; }
 
-        public Mochila(double pesoMaximo)
-        {
-            this.PesoMaximo = pesoMaximo;
+        public Mochila()
+        {            
+            this.PesoMaximo = 9000.0;
+            this.Itens = new List<Item>();
         }
 
         public void AdicionaItem(Item item)
         {
-            if (verificaPesoDoItem(item) && verificaPesoMaximoDaMochila())
+            if (verificaPesoDoItem(item) && verificaPesoMaximoDaMochila(item))
             {
                 this.Itens.Add(item);
                 this.Peso += item.Peso;
+                this.Valor += item.Valor;
             }
         }
 
@@ -36,9 +38,9 @@ namespace Mochila
             return false;
         }
 
-        private bool verificaPesoMaximoDaMochila()
+        private bool verificaPesoMaximoDaMochila(Item item)
         {
-            if (this.Peso < this.PesoMaximo)
+            if (this.Peso + item.Peso < this.PesoMaximo)
             {
                 return true;
             }
